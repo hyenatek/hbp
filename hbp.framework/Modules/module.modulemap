@@ -1,0 +1,8 @@
+framework module hbp {
+    umbrella header "hbp.h"
+
+    export *
+    module * { export * }
+
+    use Foundation
+}
