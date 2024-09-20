@@ -16,6 +16,7 @@ Pod::Spec.new do |spec|
   spec.author       = { "JeremyLin" => "jeremylin@hyenatek.com" }
   spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/hyenatek/hbp.git", :tag => "#{spec.version}" }
+  spec.vendored_frameworks = 'hbp.framework'
   spec.license      = { :type => 'MIT', :text => <<-LICENSE
   Copyright (c) 2024 Hyena
 
