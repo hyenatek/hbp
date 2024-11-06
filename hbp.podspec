@@ -9,18 +9,18 @@
 Pod::Spec.new do |spec|
 
   spec.name         = "hbp"
-  spec.version      = "1.8.0"
+  spec.version      = "1.8.1"
   spec.summary      = "Hyenatek hbp framework"
   spec.description  = "Hyenatek hbp description"
   spec.homepage     = "https://github.com/hyenatek/hbp"
   spec.author       = { "JeremyLin" => "jeremylin@hyenatek.com" }
   spec.platform     = :ios, "13.0"
   spec.source       = { :git => "https://github.com/hyenatek/hbp.git", :tag => "#{spec.version}" }
-  spec.swift_versions = ['5.0']
+  spec.swift_versions = '5.0'
   spec.vendored_frameworks = 'hbp.framework'
   spec.pod_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
   spec.user_target_xcconfig = { 'EXCLUDED_ARCHS[sdk=iphonesimulator*]' => 'arm64' }
-  spec.static_framework = true
+  # spec.static_framework = true
   spec.license      = { :type => 'MIT', :text => <<-LICENSE
   Copyright (c) 2024 Hyena
 
