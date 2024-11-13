@@ -240,6 +240,15 @@ __attribute__((swift_name("IHbpExceptionInfo")))
 @property HbpErrorCodeInfo *errorCodeInfo __attribute__((swift_name("errorCodeInfo")));
 @end
 
+__attribute__((swift_name("InternalExceptionInfo")))
+@protocol HbpInternalExceptionInfo
+@required
+@property HbpInt * _Nullable limitTime __attribute__((swift_name("limitTime")));
+@property NSString * _Nullable rawData __attribute__((swift_name("rawData")));
+@property NSString * _Nullable requestID __attribute__((swift_name("requestID")));
+@property NSString * _Nullable responseID __attribute__((swift_name("responseID")));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("LongTermPercent")))
 @interface HbpLongTermPercent : HbpPercent
