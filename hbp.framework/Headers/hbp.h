@@ -8,7 +8,7 @@
 
 @class HbpIntLimit, HbpDayCompanion, HbpPercent, HbpErrorCodeInfo, HbpMonthCompanion, HbpCheckFirmwareUpdateResult, HbpKotlinException, HbpIDownloadListenerStage, HbpKotlinEnumCompanion, HbpKotlinEnum<E>, HbpKotlinArray<T>, HbpFirmwareUpdateReport, HbpConnectState, HbpChargeCurrent, HbpHour, HbpMinute, HbpOptimizedChargingStatus, HbpChargingSetting, HbpYear, HbpMonth, HbpDay, HbpELMDateTime, HbpExtenderPercent, HbpExtenderPercentRange, HbpPercentRange, HbpLongTermPercent, HbpIELMHistoryHistoryCleanConfig, HbpIELMHistoryHistoryConfig, HbpEventType, HbpOptimizedChargingStatusDisable, HbpOptimizedChargingStatusEnable, HbpOptimizedChargingStatusInitial, HbpKotlinByteArray, HbpIPlatformLoggerLevel, HbpKotlinThrowable, HbpIPlatformQuantificationErrorErrorSource, HbpIWrapperSettingENV, HbpChipType, HbpFirmwareReleaseEnvApi, HbpKotlinx_serialization_jsonJson, HbpApiBaseCompanion, HbpBatteryELMInfo, HbpIBatteryELMHandlerCleanHistoryConfig, HbpKotlinPair<__covariant A, __covariant B>, HbpIBatteryELMHandlerChargingResponse, HbpIBatteryELMHandlerGetHistoryConfig, HbpIBatteryELMHandlerHistoryResponse, HbpIBatteryELMHandlerLoggedInfoResponse, HbpIBatteryELMHandlerSetChargingConfig, HbpTimeConfig, HbpIBatteryELMHandlerHistoryNumber, HbpFirmwareFileType, HbpHbpSdkBase, HbpHbpSdkCompanion, HbpHbpSdk, HbpConfigurationBuilder, HbpConfigurationBuilderBaseCompanion, HbpPlatformFileHandler, HbpConfigurationBuilderBase, HbpPlatformDfuUpdater, HbpFirmwareFile, HbpFirmwareCheckStage, HbpFirmwareUpdateState, HbpFirmwareUpdateStage, HbpGuideOperation, HbpParameterItem<ValueType>, HbpHyenaPartCompanion, HbpPartState, HbpBatteryArticleInformation1, HbpBatteryArticleInformation2, HbpProductionDate, HbpTimezoneDate, HbpAssistLevelValueState, HbpHMIPartSpeedUnit, HbpILockPartILockStates, HbpILockPartILockChainLockState, HbpILockPartILockRingLockState, HbpILockPartILockState, HbpTPMSPosition, HbpHyLoggerBase, HbpDefaultHyLoggerBaseCompanion, HbpDefaultHyLoggerBase, HbpDefaultHyLoggerCompanion, HbpLoggerCompanion, HbpKotlinByteIterator, NSData, HbpKotlinRuntimeException, HbpKotlinx_serialization_coreSerializersModule, HbpKotlinx_serialization_jsonJsonDefault, HbpKotlinx_serialization_jsonJsonElement, HbpKotlinx_serialization_jsonJsonConfiguration, HbpKotlinIllegalStateException, HbpKotlinCancellationException, HbpKotlinx_serialization_jsonJsonElementCompanion, HbpKotlinx_serialization_coreSerialKind, HbpKotlinNothing, HbpKotlinUnit;
 
-@protocol HbpKotlinComparable, HbpIFirmwareCheckListener, HbpIDownloadListener, HbpFirmwareUpdateListener, HbpIHyenaDrive, HbpHyenaPart, HbpBatteryAggregateListener, HbpConnectStateListener, HbpErrorCodesListener, HbpRSSIListener, HbpIHyenaParts, HbpBatteryPart, HbpControllerPart, HbpDerailleurPart, HbpExtenderBatteryPart, HbpHMIPart, HbpILockPart, HbpLightPart, HbpTPMSPart, HbpIPercentRange, HbpIELMControl, HbpIELMChargingIELMChargingResponse, HbpIELMChargingIChargingConfig, HbpIELMCharging, HbpIELMHistory, HbpIELMLogged, HbpIELMHistoryIELMHistoryResponse, HbpIELMLoggedIELMLoggedInfoResponse, HbpIDecodeDataProvider, HbpIFileTokenProvider, HbpIGlobalSetting, HbpILoggerFactory, HbpIMonitorBridge, HbpIWrapperSetting, HbpIBaseSetting, HbpILogger, HbpKotlinx_serialization_coreKSerializer, HbpQueue, HbpIHbpSdkBase, HbpLogger, HbpApiTokenProvider, HbpIGlobalSettingWithBridge, HbpILicenseSetting, HbpIMonitorInitialize, HbpIPlatformLogger, HbpIPlatformMeasurer, HbpIPlatformQuantificationError, HbpSecurityKeyHandler, HbpIDecode, HbpIFileProvider, HbpIFirmwareUpdateStage, HbpDfuUpdater, HbpFileHandler, HbpICancelHandler, HbpIFirmwareUpdateListener, HbpIELM, HbpBatteryPartListener, HbpIHbpExceptionInfo, HbpKotlinx_coroutines_coreDeferred, HbpKotlinSuspendFunction0, HbpKotlinIterator, HbpKotlinx_serialization_coreDeserializationStrategy, HbpKotlinx_serialization_coreSerializationStrategy, HbpKotlinx_serialization_coreSerialFormat, HbpKotlinx_serialization_coreStringFormat, HbpKotlinx_serialization_coreEncoder, HbpKotlinx_serialization_coreSerialDescriptor, HbpKotlinx_serialization_coreDecoder, HbpKotlinx_coroutines_coreSelectClause1, HbpKotlinx_coroutines_coreChildHandle, HbpKotlinx_coroutines_coreChildJob, HbpKotlinx_coroutines_coreDisposableHandle, HbpKotlinx_coroutines_coreJob, HbpKotlinSequence, HbpKotlinx_coroutines_coreSelectClause0, HbpKotlinCoroutineContextKey, HbpKotlinCoroutineContextElement, HbpKotlinCoroutineContext, HbpKotlinFunction, HbpKotlinx_serialization_coreSerializersModuleCollector, HbpKotlinKClass, HbpKotlinx_serialization_jsonJsonNamingStrategy, HbpKotlinx_serialization_coreCompositeEncoder, HbpKotlinAnnotation, HbpKotlinx_serialization_coreCompositeDecoder, HbpKotlinx_coroutines_coreSelectInstance, HbpKotlinx_coroutines_coreSelectClause, HbpKotlinx_coroutines_coreParentJob, HbpKotlinKDeclarationContainer, HbpKotlinKAnnotatedElement, HbpKotlinKClassifier;
+@protocol HbpKotlinComparable, HbpIFirmwareCheckListener, HbpIDownloadListener, HbpFirmwareUpdateListener, HbpIHyenaDrive, HbpHyenaPart, HbpBatteryAggregateListener, HbpConnectStateListener, HbpErrorCodesListener, HbpRSSIListener, HbpIHyenaParts, HbpBatteryPart, HbpControllerPart, HbpDerailleurPart, HbpExtenderBatteryPart, HbpHMIPart, HbpILockPart, HbpLightPart, HbpTPMSPart, HbpIPercentRange, HbpIELMControl, HbpIELMChargingIELMChargingResponse, HbpIELMChargingIChargingConfig, HbpBatteryPartELMListener, HbpIELMCharging, HbpIELMHistory, HbpIELMLogged, HbpIELMHistoryIELMHistoryResponse, HbpIELMLoggedIELMLoggedInfoResponse, HbpIDecodeDataProvider, HbpIFileTokenProvider, HbpIGlobalSetting, HbpILoggerFactory, HbpIMonitorBridge, HbpIWrapperSetting, HbpIBaseSetting, HbpILogger, HbpKotlinx_serialization_coreKSerializer, HbpQueue, HbpIHbpSdkBase, HbpLogger, HbpApiTokenProvider, HbpIGlobalSettingWithBridge, HbpILicenseSetting, HbpIMonitorInitialize, HbpIPlatformLogger, HbpIPlatformMeasurer, HbpIPlatformQuantificationError, HbpSecurityKeyHandler, HbpIDecode, HbpIFileProvider, HbpIFirmwareUpdateStage, HbpDfuUpdater, HbpFileHandler, HbpICancelHandler, HbpIFirmwareUpdateListener, HbpIELM, HbpBatteryPartListener, HbpIHbpExceptionInfo, HbpKotlinx_coroutines_coreDeferred, HbpKotlinSuspendFunction0, HbpKotlinIterator, HbpKotlinx_serialization_coreDeserializationStrategy, HbpKotlinx_serialization_coreSerializationStrategy, HbpKotlinx_serialization_coreSerialFormat, HbpKotlinx_serialization_coreStringFormat, HbpKotlinx_serialization_coreEncoder, HbpKotlinx_serialization_coreSerialDescriptor, HbpKotlinx_serialization_coreDecoder, HbpKotlinx_coroutines_coreSelectClause1, HbpKotlinx_coroutines_coreChildHandle, HbpKotlinx_coroutines_coreChildJob, HbpKotlinx_coroutines_coreDisposableHandle, HbpKotlinx_coroutines_coreJob, HbpKotlinSequence, HbpKotlinx_coroutines_coreSelectClause0, HbpKotlinCoroutineContextKey, HbpKotlinCoroutineContextElement, HbpKotlinCoroutineContext, HbpKotlinFunction, HbpKotlinx_serialization_coreSerializersModuleCollector, HbpKotlinKClass, HbpKotlinx_serialization_jsonJsonNamingStrategy, HbpKotlinx_serialization_coreCompositeEncoder, HbpKotlinAnnotation, HbpKotlinx_serialization_coreCompositeDecoder, HbpKotlinx_coroutines_coreSelectInstance, HbpKotlinx_coroutines_coreSelectClause, HbpKotlinx_coroutines_coreParentJob, HbpKotlinKDeclarationContainer, HbpKotlinKAnnotatedElement, HbpKotlinKClassifier;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -495,6 +495,13 @@ __attribute__((swift_name("RSSIListener")))
 - (void)onRSSIValueValue:(HbpInt * _Nullable)value __attribute__((swift_name("onRSSIValue(value:)")));
 @end
 
+__attribute__((swift_name("BatteryPartELMListener")))
+@protocol HbpBatteryPartELMListener
+@required
+- (void)onELM10ThCycleFlagValue:(BOOL)value __attribute__((swift_name("onELM10ThCycleFlag(value:)")));
+- (void)onELMStatusExtendedMode:(BOOL)extendedMode longTermMode:(BOOL)longTermMode elmUpper:(int32_t)elmUpper elmLower:(int32_t)elmLower longTermUpper:(int32_t)longTermUpper __attribute__((swift_name("onELMStatus(extendedMode:longTermMode:elmUpper:elmLower:longTermUpper:)")));
+@end
+
 __attribute__((swift_name("ChargingSetting")))
 @interface HbpChargingSetting : HbpBase
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
@@ -643,6 +650,24 @@ __attribute__((swift_name("IELMChargingMixChargingConfig")))
 __attribute__((swift_name("IELMControl")))
 @protocol HbpIELMControl
 @required
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)addListenerListener:(id<HbpBatteryPartELMListener>)listener completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("addListener(listener:completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)isSupportedWithCompletionHandler:(void (^)(HbpBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("isSupported(completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)removeListenerListener:(id<HbpBatteryPartELMListener>)listener completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("removeListener(listener:completionHandler:)")));
 @property (readonly) id<HbpIELMCharging> charging __attribute__((swift_name("charging")));
 @property (readonly) id<HbpIELMHistory> history __attribute__((swift_name("history")));
 @property (readonly) id<HbpIELMLogged> logged __attribute__((swift_name("logged")));
@@ -1054,6 +1079,12 @@ __attribute__((swift_name("IBatteryELMHandler")))
 @required
 
 /**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)addListenerListener:(id<HbpBatteryPartELMListener>)listener completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("addListener(listener:completionHandler:)")));
+
+/**
  * @note This method converts instances of CancellationException to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
@@ -1076,6 +1107,18 @@ __attribute__((swift_name("IBatteryELMHandler")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)getLoggedInfoWithCompletionHandler:(void (^)(HbpIBatteryELMHandlerLoggedInfoResponse * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getLoggedInfo(completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)isSupportedWithCompletionHandler:(void (^)(HbpBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("isSupported(completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)removeListenerListener:(id<HbpBatteryPartELMListener>)listener completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("removeListener(listener:completionHandler:)")));
 
 /**
  * @note This method converts instances of CancellationException to errors.
@@ -1583,7 +1626,12 @@ __attribute__((swift_name("HyenaPart")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)readParametersParameterItems:(NSArray<HbpParameterItem<id> *> *)parameterItems refresh:(BOOL)refresh completionHandler:(void (^)(NSArray<HbpParameterItem<id> *> * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("readParameters(parameterItems:refresh:completionHandler:)")));
-- (void)removeListenerListener:(id _Nullable)listener __attribute__((swift_name("removeListener(listener:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (BOOL)removeListenerListener:(id _Nullable)listener error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("removeListener(listener:)")));
 
 /**
  * @note This method converts instances of Exception to errors.
