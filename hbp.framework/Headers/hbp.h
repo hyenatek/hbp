@@ -304,11 +304,11 @@ __attribute__((swift_name("Second")))
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("TimezoneDate")))
 @interface HbpTimezoneDate : HbpBase
-- (instancetype)initWithUnixTimestamp:(int64_t)unixTimestamp timezoneId:(NSString *)timezoneId __attribute__((swift_name("init(unixTimestamp:timezoneId:)"))) __attribute__((objc_designated_initializer));
+- (instancetype)initWithUnixTimestamp:(int64_t)unixTimestamp timezoneOffsetSeconds:(int32_t)timezoneOffsetSeconds __attribute__((swift_name("init(unixTimestamp:timezoneOffsetSeconds:)"))) __attribute__((objc_designated_initializer));
 - (NSString *)getTimeStringWithTimezone __attribute__((swift_name("getTimeStringWithTimezone()")));
 @property (readonly) int64_t epochMilliseconds __attribute__((swift_name("epochMilliseconds")));
 @property (readonly) int64_t epochSeconds __attribute__((swift_name("epochSeconds")));
-@property (readonly) NSString *timezoneId __attribute__((swift_name("timezoneId")));
+@property (readonly) int32_t timezoneOffsetSeconds __attribute__((swift_name("timezoneOffsetSeconds")));
 @property (readonly) int32_t totalTimezoneOffsetSeconds __attribute__((swift_name("totalTimezoneOffsetSeconds")));
 @end
 
@@ -515,8 +515,8 @@ __attribute__((swift_name("ChargingSetting")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("DisableChartingSetting")))
-@interface HbpDisableChartingSetting : HbpChargingSetting
+__attribute__((swift_name("DisableChargingSetting")))
+@interface HbpDisableChargingSetting : HbpChargingSetting
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @property (readonly) HbpChargeCurrent * _Nullable chargeCurrent __attribute__((swift_name("chargeCurrent")));
@@ -543,8 +543,8 @@ __attribute__((swift_name("ELMDateTime")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("EnableChartingSetting")))
-@interface HbpEnableChartingSetting : HbpChargingSetting
+__attribute__((swift_name("EnableChargingSetting")))
+@interface HbpEnableChargingSetting : HbpChargingSetting
 - (instancetype)initWithChargeCurrent:(HbpChargeCurrent *)chargeCurrent startHour:(HbpHour *)startHour startMinute:(HbpMinute *)startMinute endHour:(HbpHour *)endHour endMinute:(HbpMinute *)endMinute __attribute__((swift_name("init(chargeCurrent:startHour:startMinute:endHour:endMinute:)"))) __attribute__((objc_designated_initializer));
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
 + (instancetype)new __attribute__((unavailable));
@@ -742,8 +742,8 @@ __attribute__((swift_name("IELMLoggedIELMLoggedInfoResponse")))
 @end
 
 __attribute__((objc_subclassing_restricted))
-__attribute__((swift_name("InitialChartingSetting")))
-@interface HbpInitialChartingSetting : HbpChargingSetting
+__attribute__((swift_name("InitialChargingSetting")))
+@interface HbpInitialChargingSetting : HbpChargingSetting
 - (instancetype)init __attribute__((swift_name("init()"))) __attribute__((objc_designated_initializer));
 + (instancetype)new __attribute__((availability(swift, unavailable, message="use object initializers instead")));
 @property (readonly) HbpChargeCurrent * _Nullable chargeCurrent __attribute__((swift_name("chargeCurrent")));
@@ -1744,7 +1744,7 @@ __attribute__((swift_name("BatteryPart")))
  * @note This method converts instances of Exception to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
-- (void)setRTCWithTimezoneTimezoneDate:(HbpTimezoneDate *)timezoneDate completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("setRTCWithTimezone(timezoneDate:completionHandler:)")));
+- (void)setRTCDateTimeTimezoneDate:(HbpTimezoneDate *)timezoneDate completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("setRTCDateTime(timezoneDate:completionHandler:)")));
 
 /**
  * @note This method converts instances of Exception to errors.
@@ -1762,7 +1762,7 @@ __attribute__((swift_name("BatteryPartListener")))
 - (void)onCapacityInmwhValue:(int64_t)value __attribute__((swift_name("onCapacityInmwh(value:)")));
 - (void)onChargingRemainSecondSecond:(int32_t)second __attribute__((swift_name("onChargingRemainSecond(second:)")));
 - (void)onIsChargingValue:(BOOL)value __attribute__((swift_name("onIsCharging(value:)")));
-- (void)onRTCWithTimezoneTimezoneDate:(HbpTimezoneDate *)timezoneDate __attribute__((swift_name("onRTCWithTimezone(timezoneDate:)")));
+- (void)onRTCDateTimeTimezoneDate:(HbpTimezoneDate *)timezoneDate __attribute__((swift_name("onRTCDateTime(timezoneDate:)")));
 - (void)onStateOfHealthInPercentageValue:(int32_t)value __attribute__((swift_name("onStateOfHealthInPercentage(value:)")));
 - (void)onStateOfHealthInmwhValue:(int32_t)value __attribute__((swift_name("onStateOfHealthInmwh(value:)")));
 @end
