@@ -6,9 +6,9 @@
 #import <Foundation/NSString.h>
 #import <Foundation/NSValue.h>
 
-@class HbpIntLimit, HbpDayCompanion, HbpPercent, HbpErrorCodeInfo, HbpMonthCompanion, HbpCheckFirmwareUpdateResult, HbpKotlinException, HbpIDownloadListenerStage, HbpKotlinEnumCompanion, HbpKotlinEnum<E>, HbpKotlinArray<T>, HbpFirmwareUpdateReport, HbpConnectState, HbpChargeCurrent, HbpHour, HbpMinute, HbpOptimizedChargingStatus, HbpChargingSetting, HbpYear, HbpMonth, HbpDay, HbpELMDateTime, HbpExtenderPercent, HbpExtenderPercentRange, HbpPercentRange, HbpLongTermPercent, HbpIELMHistoryHistoryCleanConfig, HbpIELMHistoryHistoryConfig, HbpEventType, HbpOptimizedChargingStatusDisable, HbpOptimizedChargingStatusEnable, HbpOptimizedChargingStatusInitial, HbpKotlinByteArray, HbpIPlatformLoggerLevel, HbpKotlinThrowable, HbpIPlatformQuantificationErrorErrorSource, HbpIWrapperSettingENV, HbpChipType, HbpFirmwareReleaseEnvApi, HbpKotlinx_serialization_jsonJson, HbpApiBaseCompanion, HbpBatteryELMInfo, HbpIBatteryELMHandlerCleanHistoryConfig, HbpKotlinPair<__covariant A, __covariant B>, HbpIBatteryELMHandlerChargingResponse, HbpIBatteryELMHandlerGetHistoryConfig, HbpIBatteryELMHandlerHistoryResponse, HbpIBatteryELMHandlerLoggedInfoResponse, HbpIBatteryELMHandlerSetChargingConfig, HbpTimeConfig, HbpIBatteryELMHandlerHistoryNumber, HbpFirmwareFileType, HbpHbpSdkBase, HbpHbpSdkCompanion, HbpHbpSdk, HbpConfigurationBuilder, HbpConfigurationBuilderBaseCompanion, HbpPlatformFileHandler, HbpConfigurationBuilderBase, HbpPlatformDfuUpdater, HbpFirmwareFile, HbpFirmwareCheckStage, HbpFirmwareUpdateState, HbpFirmwareUpdateStage, HbpGuideOperation, HbpParameterItem<ValueType>, HbpHyenaPartCompanion, HbpPartState, HbpBatteryArticleInformation1, HbpBatteryArticleInformation2, HbpProductionDate, HbpTimezoneDate, HbpAssistLevelValueState, HbpHMIPartSpeedUnit, HbpILockPartILockStates, HbpILockPartILockChainLockState, HbpILockPartILockRingLockState, HbpILockPartILockState, HbpTPMSPosition, HbpHyLoggerBase, HbpDefaultHyLoggerBaseCompanion, HbpDefaultHyLoggerBase, HbpDefaultHyLoggerCompanion, HbpLoggerCompanion, HbpKotlinByteIterator, NSData, HbpKotlinRuntimeException, HbpKotlinx_serialization_coreSerializersModule, HbpKotlinx_serialization_jsonJsonDefault, HbpKotlinx_serialization_jsonJsonElement, HbpKotlinx_serialization_jsonJsonConfiguration, HbpKotlinIllegalStateException, HbpKotlinCancellationException, HbpKotlinx_serialization_jsonJsonElementCompanion, HbpKotlinx_serialization_coreSerialKind, HbpKotlinNothing, HbpKotlinUnit;
+@class HbpIntLimit, HbpDayCompanion, HbpPercent, HbpErrorCodeInfo, HbpMonthCompanion, HbpCheckFirmwareUpdateResult, HbpCheckFrameUpdateResult, HbpKotlinException, HbpIDownloadListenerStage, HbpKotlinEnumCompanion, HbpKotlinEnum<E>, HbpKotlinArray<T>, HbpFirmwareUpdateReport, HbpConnectState, HbpChargeCurrent, HbpHour, HbpMinute, HbpOptimizedChargingStatus, HbpChargingSetting, HbpYear, HbpMonth, HbpDay, HbpELMDateTime, HbpExtenderPercent, HbpExtenderPercentRange, HbpPercentRange, HbpLongTermPercent, HbpIELMHistoryHistoryCleanConfig, HbpIELMHistoryHistoryConfig, HbpEventType, HbpOptimizedChargingStatusDisable, HbpOptimizedChargingStatusEnable, HbpOptimizedChargingStatusInitial, HbpKotlinByteArray, HbpIPlatformLoggerLevel, HbpKotlinThrowable, HbpIPlatformQuantificationErrorErrorSource, HbpIWrapperSettingENV, HbpChipType, HbpFirmwareReleaseEnvApi, HbpKotlinx_serialization_jsonJson, HbpApiBaseCompanion, HbpBatteryELMInfo, HbpIBatteryELMHandlerCleanHistoryConfig, HbpKotlinPair<__covariant A, __covariant B>, HbpIBatteryELMHandlerChargingResponse, HbpIBatteryELMHandlerGetHistoryConfig, HbpIBatteryELMHandlerHistoryResponse, HbpIBatteryELMHandlerLoggedInfoResponse, HbpIBatteryELMHandlerSetChargingConfig, HbpTimeConfig, HbpIBatteryELMHandlerHistoryNumber, HbpFirmwareFileType, HbpHbpSdkBase, HbpHbpSdkCompanion, HbpHbpSdk, HbpConfigurationBuilder, HbpConfigurationBuilderBaseCompanion, HbpPlatformFileHandler, HbpConfigurationBuilderBase, HbpPlatformDfuUpdater, HbpFirmwareFile, HbpFirmwareCheckStage, HbpFirmwareUpdateState, HbpFirmwareUpdateStage, HbpFrameUpdateState, HbpFrameUpdateStage, HbpGuideOperation, HbpParameterItem<ValueType>, HbpHyenaPartCompanion, HbpPartState, HbpBatteryArticleInformation1, HbpBatteryArticleInformation2, HbpProductionDate, HbpTimezoneDate, HbpAssistLevelValueState, HbpHMIPartSpeedUnit, HbpILockPartILockStates, HbpILockPartILockChainLockState, HbpILockPartILockRingLockState, HbpILockPartILockState, HbpTPMSPosition, HbpHyLoggerBase, HbpDefaultHyLoggerBaseCompanion, HbpDefaultHyLoggerBase, HbpDefaultHyLoggerCompanion, HbpLoggerCompanion, HbpKotlinByteIterator, NSData, HbpKotlinRuntimeException, HbpKotlinx_serialization_coreSerializersModule, HbpKotlinx_serialization_jsonJsonDefault, HbpKotlinx_serialization_jsonJsonElement, HbpKotlinx_serialization_jsonJsonConfiguration, HbpKotlinIllegalStateException, HbpKotlinCancellationException, HbpKotlinx_serialization_jsonJsonElementCompanion, HbpKotlinx_serialization_coreSerialKind, HbpKotlinNothing, HbpKotlinUnit;
 
-@protocol HbpKotlinComparable, HbpIFirmwareCheckListener, HbpIDownloadListener, HbpFirmwareUpdateListener, HbpIHyenaDrive, HbpHyenaPart, HbpBatteryAggregateListener, HbpConnectStateListener, HbpErrorCodesListener, HbpRSSIListener, HbpIHyenaParts, HbpBatteryPart, HbpControllerPart, HbpDerailleurPart, HbpExtenderBatteryPart, HbpHMIPart, HbpILockPart, HbpLightPart, HbpTPMSPart, HbpIPercentRange, HbpIELMControl, HbpIELMChargingIELMChargingResponse, HbpIELMChargingIChargingConfig, HbpBatteryPartELMListener, HbpIELMCharging, HbpIELMHistory, HbpIELMLogged, HbpIELMHistoryIELMHistoryResponse, HbpIELMLoggedIELMLoggedInfoResponse, HbpIDecodeDataProvider, HbpIFileTokenProvider, HbpIGlobalSetting, HbpILoggerFactory, HbpIMonitorBridge, HbpIWrapperSetting, HbpIBaseSetting, HbpILogger, HbpKotlinx_serialization_coreKSerializer, HbpQueue, HbpIHbpSdkBase, HbpLogger, HbpApiTokenProvider, HbpIGlobalSettingWithBridge, HbpILicenseSetting, HbpIMonitorInitialize, HbpIPlatformLogger, HbpIPlatformMeasurer, HbpIPlatformQuantificationError, HbpSecurityKeyHandler, HbpIDecode, HbpIFileProvider, HbpIFirmwareUpdateStage, HbpDfuUpdater, HbpFileHandler, HbpICancelHandler, HbpIFirmwareUpdateListener, HbpIELM, HbpBatteryPartListener, HbpIHbpExceptionInfo, HbpKotlinx_coroutines_coreDeferred, HbpKotlinSuspendFunction0, HbpKotlinIterator, HbpKotlinx_serialization_coreDeserializationStrategy, HbpKotlinx_serialization_coreSerializationStrategy, HbpKotlinx_serialization_coreSerialFormat, HbpKotlinx_serialization_coreStringFormat, HbpKotlinx_serialization_coreEncoder, HbpKotlinx_serialization_coreSerialDescriptor, HbpKotlinx_serialization_coreDecoder, HbpKotlinx_coroutines_coreSelectClause1, HbpKotlinx_coroutines_coreChildHandle, HbpKotlinx_coroutines_coreChildJob, HbpKotlinx_coroutines_coreDisposableHandle, HbpKotlinx_coroutines_coreJob, HbpKotlinSequence, HbpKotlinx_coroutines_coreSelectClause0, HbpKotlinCoroutineContextKey, HbpKotlinCoroutineContextElement, HbpKotlinCoroutineContext, HbpKotlinFunction, HbpKotlinx_serialization_coreSerializersModuleCollector, HbpKotlinKClass, HbpKotlinx_serialization_jsonJsonNamingStrategy, HbpKotlinx_serialization_coreCompositeEncoder, HbpKotlinAnnotation, HbpKotlinx_serialization_coreCompositeDecoder, HbpKotlinx_coroutines_coreSelectInstance, HbpKotlinx_coroutines_coreSelectClause, HbpKotlinx_coroutines_coreParentJob, HbpKotlinKDeclarationContainer, HbpKotlinKAnnotatedElement, HbpKotlinKClassifier;
+@protocol HbpKotlinComparable, HbpIFirmwareCheckListener, HbpIDownloadListener, HbpFirmwareUpdateListener, HbpIHyenaDrive, HbpHyenaPart, HbpBatteryAggregateListener, HbpConnectStateListener, HbpErrorCodesListener, HbpRSSIListener, HbpIHyenaParts, HbpBatteryPart, HbpControllerPart, HbpDerailleurPart, HbpExtenderBatteryPart, HbpHMIPart, HbpILockPart, HbpLightPart, HbpTPMSPart, HbpIPercentRange, HbpIELMControl, HbpIELMChargingIELMChargingResponse, HbpIELMChargingIChargingConfig, HbpBatteryPartELMListener, HbpIELMCharging, HbpIELMHistory, HbpIELMLogged, HbpIELMHistoryIELMHistoryResponse, HbpIELMLoggedIELMLoggedInfoResponse, HbpIDecodeDataProvider, HbpIFileTokenProvider, HbpIGlobalSetting, HbpILoggerFactory, HbpIMonitorBridge, HbpIWrapperSetting, HbpIBaseSetting, HbpILogger, HbpKotlinx_serialization_coreKSerializer, HbpQueue, HbpIHbpSdkBase, HbpLogger, HbpApiTokenProvider, HbpIGlobalSettingWithBridge, HbpILicenseSetting, HbpIMonitorInitialize, HbpIPlatformLogger, HbpIPlatformMeasurer, HbpIPlatformQuantificationError, HbpSecurityKeyHandler, HbpIDecode, HbpIFileProvider, HbpIFirmwareUpdateStage, HbpDfuUpdater, HbpFileHandler, HbpICancelHandler, HbpIFirmwareUpdateListener, HbpIELM, HbpBatteryPartListener, HbpIFrameUpdateListener, HbpFrameUpdateListener, HbpIHbpExceptionInfo, HbpKotlinx_coroutines_coreDeferred, HbpKotlinSuspendFunction0, HbpKotlinIterator, HbpKotlinx_serialization_coreDeserializationStrategy, HbpKotlinx_serialization_coreSerializationStrategy, HbpKotlinx_serialization_coreSerialFormat, HbpKotlinx_serialization_coreStringFormat, HbpKotlinx_serialization_coreEncoder, HbpKotlinx_serialization_coreSerialDescriptor, HbpKotlinx_serialization_coreDecoder, HbpKotlinx_coroutines_coreSelectClause1, HbpKotlinx_coroutines_coreChildHandle, HbpKotlinx_coroutines_coreChildJob, HbpKotlinx_coroutines_coreDisposableHandle, HbpKotlinx_coroutines_coreJob, HbpKotlinSequence, HbpKotlinx_coroutines_coreSelectClause0, HbpKotlinCoroutineContextKey, HbpKotlinCoroutineContextElement, HbpKotlinCoroutineContext, HbpKotlinFunction, HbpKotlinx_serialization_coreSerializersModuleCollector, HbpKotlinKClass, HbpKotlinx_serialization_jsonJsonNamingStrategy, HbpKotlinx_serialization_coreCompositeEncoder, HbpKotlinAnnotation, HbpKotlinx_serialization_coreCompositeDecoder, HbpKotlinx_coroutines_coreSelectInstance, HbpKotlinx_coroutines_coreSelectClause, HbpKotlinx_coroutines_coreParentJob, HbpKotlinKDeclarationContainer, HbpKotlinKAnnotatedElement, HbpKotlinKClassifier;
 
 NS_ASSUME_NONNULL_BEGIN
 #pragma clang diagnostic push
@@ -339,6 +339,17 @@ __attribute__((swift_name("CheckFirmwareUpdateResult")))
 @property (readonly) NSString * _Nullable releaseNote __attribute__((swift_name("releaseNote")));
 @end
 
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("CheckFrameUpdateResult")))
+@interface HbpCheckFrameUpdateResult : HbpBase
+- (instancetype)initWithIsNeedUpdate:(BOOL)isNeedUpdate __attribute__((swift_name("init(isNeedUpdate:)"))) __attribute__((objc_designated_initializer));
+- (HbpCheckFrameUpdateResult *)doCopyIsNeedUpdate:(BOOL)isNeedUpdate __attribute__((swift_name("doCopy(isNeedUpdate:)")));
+- (BOOL)isEqual:(id _Nullable)other __attribute__((swift_name("isEqual(_:)")));
+- (NSUInteger)hash __attribute__((swift_name("hash()")));
+- (NSString *)description __attribute__((swift_name("description()")));
+@property (readonly) BOOL isNeedUpdate __attribute__((swift_name("isNeedUpdate")));
+@end
+
 __attribute__((swift_name("ICancelHandler")))
 @protocol HbpICancelHandler
 @required
@@ -397,6 +408,15 @@ __attribute__((swift_name("IFirmwareUpdateListener")))
 - (id<HbpIFirmwareCheckListener>)handleCheckErrorListener __attribute__((swift_name("handleCheckErrorListener()")));
 - (id<HbpIDownloadListener>)handleDownloadListener __attribute__((swift_name("handleDownloadListener()")));
 - (id<HbpFirmwareUpdateListener>)handleFirmwareUpdateListener __attribute__((swift_name("handleFirmwareUpdateListener()")));
+@end
+
+__attribute__((swift_name("IFrameUpdateListener")))
+@protocol HbpIFrameUpdateListener
+@required
+- (void)onErrorException:(HbpKotlinException *)exception __attribute__((swift_name("onError(exception:)")));
+- (void)onProgressPercentage:(int32_t)percentage __attribute__((swift_name("onProgress(percentage:)")));
+- (void)onStepCurrentStep:(int32_t)currentStep totalStep:(int32_t)totalStep __attribute__((swift_name("onStep(currentStep:totalStep:)")));
+- (void)onSuccess __attribute__((swift_name("onSuccess()")));
 @end
 
 __attribute__((swift_name("BatteryAggregateListener")))
@@ -1525,6 +1545,45 @@ __attribute__((swift_name("FirmwareUpdateState")))
 @property (class, readonly) NSArray<HbpFirmwareUpdateState *> *entries __attribute__((swift_name("entries")));
 @end
 
+__attribute__((swift_name("FrameUpdateListener")))
+@protocol HbpFrameUpdateListener
+@required
+- (void)onErrorException:(HbpKotlinException *)exception __attribute__((swift_name("onError(exception:)")));
+- (void)onProgressPercentage:(int32_t)percentage __attribute__((swift_name("onProgress(percentage:)")));
+- (void)onStateDidChangeState_:(HbpFrameUpdateState *)state __attribute__((swift_name("onStateDidChange(state_:)")));
+- (void)onSuccess __attribute__((swift_name("onSuccess()")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FrameUpdateStage")))
+@interface HbpFrameUpdateStage : HbpKotlinEnum<HbpFrameUpdateStage *> <HbpIFirmwareUpdateStage>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) HbpFrameUpdateStage *frameinforead __attribute__((swift_name("frameinforead")));
+@property (class, readonly) HbpFrameUpdateStage *writedatatocache __attribute__((swift_name("writedatatocache")));
+@property (class, readonly) HbpFrameUpdateStage *flashprogram __attribute__((swift_name("flashprogram")));
+@property (class, readonly) HbpFrameUpdateStage *writeflashverify __attribute__((swift_name("writeflashverify")));
+@property (class, readonly) HbpFrameUpdateStage *versionupdate __attribute__((swift_name("versionupdate")));
+@property (class, readonly) HbpFrameUpdateStage *mcurestart __attribute__((swift_name("mcurestart")));
++ (HbpKotlinArray<HbpFrameUpdateStage *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<HbpFrameUpdateStage *> *entries __attribute__((swift_name("entries")));
+@end
+
+__attribute__((objc_subclassing_restricted))
+__attribute__((swift_name("FrameUpdateState")))
+@interface HbpFrameUpdateState : HbpKotlinEnum<HbpFrameUpdateState *>
++ (instancetype)alloc __attribute__((unavailable));
++ (instancetype)allocWithZone:(struct _NSZone *)zone __attribute__((unavailable));
+- (instancetype)initWithName:(NSString *)name ordinal:(int32_t)ordinal __attribute__((swift_name("init(name:ordinal:)"))) __attribute__((objc_designated_initializer)) __attribute__((unavailable));
+@property (class, readonly) HbpFrameUpdateState *starting __attribute__((swift_name("starting")));
+@property (class, readonly) HbpFrameUpdateState *updating __attribute__((swift_name("updating")));
+@property (class, readonly) HbpFrameUpdateState *validating __attribute__((swift_name("validating")));
+@property (class, readonly) HbpFrameUpdateState *completed __attribute__((swift_name("completed")));
++ (HbpKotlinArray<HbpFrameUpdateState *> *)values __attribute__((swift_name("values()")));
+@property (class, readonly) NSArray<HbpFrameUpdateState *> *entries __attribute__((swift_name("entries")));
+@end
+
 __attribute__((objc_subclassing_restricted))
 __attribute__((swift_name("GuideOperation")))
 @interface HbpGuideOperation : HbpKotlinEnum<HbpGuideOperation *> <HbpIFirmwareUpdateStage>
@@ -1849,6 +1908,12 @@ __attribute__((swift_name("ControllerPart")))
  * @note This method converts instances of Exception to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
+- (void)isThrottleEnabledWithCompletionHandler:(void (^)(HbpBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("isThrottleEnabled(completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
 - (void)setAssistLevelAssistLevel:(int32_t)assistLevel completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("setAssistLevel(assistLevel:completionHandler:)")));
 
 /**
@@ -1974,7 +2039,37 @@ __attribute__((swift_name("HMIPart")))
  * @note This method converts instances of Exception to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
+- (void)checkForFrameUpdateWithCompletionHandler:(void (^)(HbpCheckFrameUpdateResult * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("checkForFrameUpdate(completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
 - (BOOL)firmwareUpdateTopicMid:(NSString * _Nullable)topicMid firmwareBin:(HbpKotlinByteArray *)firmwareBin listener:(id<HbpIFirmwareUpdateListener>)listener error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("firmwareUpdate(topicMid:firmwareBin:listener:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)frameUpdateListener:(id<HbpIFrameUpdateListener>)listener completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("frameUpdate(listener:completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)frameUpdateFrameBin:(HbpKotlinByteArray *)frameBin fileName:(NSString *)fileName enabledMCURestart:(BOOL)enabledMCURestart listener:(id<HbpFrameUpdateListener>)listener completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("frameUpdate(frameBin:fileName:enabledMCURestart:listener:completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getFontVersionRefresh:(BOOL)refresh completionHandler:(void (^)(NSString * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getFontVersion(refresh:completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)getIconVersionRefresh:(BOOL)refresh completionHandler:(void (^)(NSString * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getIconVersion(refresh:completionHandler:)")));
 
 /**
  * @note This method converts instances of Exception to errors.
