@@ -1804,6 +1804,7 @@ __attribute__((swift_name("BatteryPart")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)setRTCDateTimeTimezoneDate:(HbpTimezoneDate *)timezoneDate completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("setRTCDateTime(timezoneDate:completionHandler:)")));
+- (void)setSilentModeWhenRetryAttemptsFlag:(BOOL)flag __attribute__((swift_name("setSilentModeWhenRetryAttempts(flag:)")));
 
 /**
  * @note This method converts instances of Exception to errors.
