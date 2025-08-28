@@ -1972,7 +1972,9 @@ __attribute__((swift_name("ControllerPartListener")))
 @protocol HbpControllerPartListener
 @required
 - (void)onAssistanceLevelValue:(int32_t)value __attribute__((swift_name("onAssistanceLevel(value:)")));
+- (void)onControllerTemperatureInCelsiusValue:(HbpInt * _Nullable)value __attribute__((swift_name("onControllerTemperatureInCelsius(value:)")));
 - (void)onMotorPowerInmwValue:(int64_t)value __attribute__((swift_name("onMotorPowerInmw(value:)")));
+- (void)onMotorTemperatureInCelsiusValue:(HbpInt * _Nullable)value __attribute__((swift_name("onMotorTemperatureInCelsius(value:)")));
 - (void)onOdoInKmOdo:(float)odo __attribute__((swift_name("onOdoInKm(odo:)")));
 - (void)onPartStateState:(HbpPartState *)state mid:(NSString * _Nullable)mid __attribute__((swift_name("onPartState(state:mid:)")));
 - (void)onRPMValue:(int32_t)value __attribute__((swift_name("onRPM(value:)")));
