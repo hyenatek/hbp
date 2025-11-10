@@ -1654,7 +1654,12 @@ __attribute__((swift_name("HyenaPart")))
  * Other uncaught Kotlin exceptions are fatal.
 */
 - (void)checkForFirmwareUpdatePreDownload:(BOOL)preDownload completionHandler:(void (^)(HbpCheckFirmwareUpdateResult * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("checkForFirmwareUpdate(preDownload:completionHandler:)")));
-- (id<HbpICancelHandler>)firmwareUpdateListener:(id<HbpIFirmwareUpdateListener>)listener __attribute__((swift_name("firmwareUpdate(listener:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (id<HbpICancelHandler> _Nullable)firmwareUpdateListener:(id<HbpIFirmwareUpdateListener>)listener error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("firmwareUpdate(listener:)")));
 
 /**
  * @note This method converts instances of Exception to errors.
