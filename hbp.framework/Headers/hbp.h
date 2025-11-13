@@ -2077,6 +2077,30 @@ __attribute__((swift_name("HMIPart")))
  * @note This method converts instances of Exception to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
+- (void)disableLockPasscode:(int32_t)passcode completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("disableLock(passcode:completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)disableThrottleWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("disableThrottle(completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)enableLockNewPasscode:(int32_t)newPasscode completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("enableLock(newPasscode:completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)enableThrottleWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("enableThrottle(completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
 - (BOOL)firmwareUpdateTopicMid:(NSString * _Nullable)topicMid firmwareBin:(HbpKotlinByteArray *)firmwareBin listener:(id<HbpIFirmwareUpdateListener>)listener error:(NSError * _Nullable * _Nullable)error __attribute__((swift_name("firmwareUpdate(topicMid:firmwareBin:listener:)")));
 
 /**
@@ -2095,6 +2119,12 @@ __attribute__((swift_name("HMIPart")))
  * @note This method converts instances of Exception to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
+- (void)getDarkModeEnabledWithCompletionHandler:(void (^)(HbpBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("getDarkModeEnabled(completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
 - (void)getFontVersionRefresh:(BOOL)refresh completionHandler:(void (^)(NSString * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("getFontVersion(refresh:completionHandler:)")));
 
 /**
@@ -2107,7 +2137,67 @@ __attribute__((swift_name("HMIPart")))
  * @note This method converts instances of Exception to errors.
  * Other uncaught Kotlin exceptions are fatal.
 */
+- (void)isLockSupportedWithCompletionHandler:(void (^)(HbpBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("isLockSupported(completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)isRemainingRangeSettingSupportedWithCompletionHandler:(void (^)(HbpBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("isRemainingRangeSettingSupported(completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)isThemeSupportedWithCompletionHandler:(void (^)(HbpBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("isThemeSupported(completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)isThrottleEnableWithCompletionHandler:(void (^)(HbpBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("isThrottleEnable(completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)isThrottleSupportedWithCompletionHandler:(void (^)(HbpBoolean * _Nullable, NSError * _Nullable))completionHandler __attribute__((swift_name("isThrottleSupported(completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
 - (void)readSpeedUnitWithCompletionHandler:(void (^)(HbpHMIPartSpeedUnit * _Nullable_result, NSError * _Nullable))completionHandler __attribute__((swift_name("readSpeedUnit(completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)resetPasscodePasscode:(int32_t)passcode newPasscode:(int32_t)newPasscode completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("resetPasscode(passcode:newPasscode:completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)setDarkModeEnableEnable:(BOOL)enable completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("setDarkModeEnable(enable:completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)setRemainingRangesInKmRanges:(NSArray<HbpInt *> *)ranges completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("setRemainingRangesInKm(ranges:completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)setRemainingRangesToDefaultWithCompletionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("setRemainingRangesToDefault(completionHandler:)")));
+
+/**
+ * @note This method converts instances of Exception to errors.
+ * Other uncaught Kotlin exceptions are fatal.
+*/
+- (void)unlockPasscode:(int32_t)passcode completionHandler:(void (^)(NSError * _Nullable))completionHandler __attribute__((swift_name("unlock(passcode:completionHandler:)")));
 @end
 
 __attribute__((objc_subclassing_restricted))
@@ -2125,6 +2215,8 @@ __attribute__((swift_name("HMIPartSpeedUnit")))
 __attribute__((swift_name("HMIPartListener")))
 @protocol HbpHMIPartListener
 @required
+- (void)onLockEnabledIsEnabled:(BOOL)isEnabled __attribute__((swift_name("onLockEnabled(isEnabled:)")));
+- (void)onLockStateChangedIsLocked:(BOOL)isLocked __attribute__((swift_name("onLockStateChanged(isLocked:)")));
 @end
 
 __attribute__((swift_name("ILockPart")))
