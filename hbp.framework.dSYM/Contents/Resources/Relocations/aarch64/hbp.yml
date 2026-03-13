@@ -1,6 +1,6 @@
 ---
 triple:          'arm64-apple-darwin'
-binary-path:     '/Users/runner/work/1/s/hbp/build/bin/iosArm64/releaseFramework/hbp.framework/hbp'
+binary-path:     '/Users/jeremylin/dev/HBP_SDK_V1/hbp/build/bin/iosArm64/releaseFramework/hbp.framework/hbp'
 relocations:
   - { offset: 0x329, size: 0x8, addend: 0x0, symName: '_kfun:kotlinx.cinterop.CPointer#hashCode(){}kotlin.Int', symObjAddr: 0x0, symBinAddr: 0x4000, symSize: 0x84 }
   - { offset: 0x331, size: 0x8, addend: 0x0, symName: '_kfun:kotlinx.cinterop.CPointer#toString(){}kotlin.String', symObjAddr: 0x84, symBinAddr: 0x4084, symSize: 0x58 }
