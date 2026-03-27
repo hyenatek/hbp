@@ -1851,6 +1851,7 @@ __attribute__((swift_name("BatteryPartListener")))
 - (void)onCapacityInmwhValue:(int64_t)value __attribute__((swift_name("onCapacityInmwh(value:)")));
 - (void)onChargingRemainSecondSecond:(int32_t)second __attribute__((swift_name("onChargingRemainSecond(second:)")));
 - (void)onIsChargingValue:(BOOL)value __attribute__((swift_name("onIsCharging(value:)")));
+- (void)onPowerReductionInPercentageValue:(int32_t)value __attribute__((swift_name("onPowerReductionInPercentage(value:)")));
 - (void)onRTCDateTimeTimezoneDate:(HbpTimezoneDate *)timezoneDate __attribute__((swift_name("onRTCDateTime(timezoneDate:)")));
 - (void)onStateOfHealthInPercentageValue:(int32_t)value __attribute__((swift_name("onStateOfHealthInPercentage(value:)")));
 - (void)onStateOfHealthInmwhValue:(int32_t)value __attribute__((swift_name("onStateOfHealthInmwh(value:)")));
