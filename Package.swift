@@ -10,8 +10,8 @@ let package = Package(
     targets: [
         .binaryTarget(
             name: "hbp",
-            url: "https://github.com/hyenatek/hbp/releases/download/2.0.5/hbp.xcframework.zip",
-            checksum: "f476b609a4ae80bbe72b59dd11e88ecf131647004764608fdf578c3817de52d9"
+            url: "https://github.com/hyenatek/hbp/releases/download/2.0.5-beta.2/hbp.xcframework.zip",
+            checksum: "8a89572a4e93843a388ba8c65284644070e2df149bc43f16dc8bb07ed7a1bf44"
         )
     ]
 )
